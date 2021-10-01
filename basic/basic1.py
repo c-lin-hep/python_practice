@@ -52,9 +52,9 @@ else:
 x = 10
 y = -5
 if x > 0 and y < 0 :
-   print('Third quant!')
+   print('Third quandrant!')
 if x > 0 or y < 0 :
-   print('Not second quant!')
+   print('Not second quandrant!')
 if not x < 0:
-   print('First and second quant!')
+   print('First and second quadrant!')
 
