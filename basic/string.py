@@ -1,4 +1,4 @@
-# python3 practice
+#!/usr/bin/env python3
 #
 # string practice
 # C. Lin, 2021 Oct 2
