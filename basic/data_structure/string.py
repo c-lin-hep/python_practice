@@ -4,6 +4,7 @@
 # C. Lin, 2021 Oct 2
 #
 # Reference: https://docs.python.org/3/tutorial/introduction.html#
+#            https://www.w3schools.com/python/python_ref_string.asp
 # 
 
 ###########################
@@ -73,4 +74,31 @@ print('word[10:]:', word[10:])
 #
 print('len(): ', len(word))
 
+
+#######################
+# III. string functions
+#
+
+#
+# str.replace(old_val, new_val, count)
+#
+str_a = 'Replace apple with orange. I like orange.'
+print('str_a: ', str_a)
+print("str_a.replace('orange','banana') : ",str_a.replace('orange','banana'))
+print("str_a.replace('orange','banana',1) : ",str_a.replace('orange','banana',1))
+
+#
+# ASC code translation
+#
+asc_code =  ord('A')
+print('ASC code of \'A\'', asc_code)
+print('ASC code = ', asc_code, " represents ", chr(asc_code))
+
+#
+# str.count('word',start,end): the count of word that appears in 'str'.
+#
+str_b = 'This is a book and that is a pencil.'
+print('str_b = ', str_b)
+print('str_b.count(\'a\') ', str_b.count('a') )
+print('str_b.count(\'a\',0,10)', str_b.count('a',0,10))
 
